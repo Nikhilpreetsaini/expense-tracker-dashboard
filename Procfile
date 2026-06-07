@@ -1,0 +1,1 @@
+web: gunicorn wsgi:app --bind :$PORT --workers 4
